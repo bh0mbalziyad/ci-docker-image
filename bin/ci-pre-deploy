@@ -3,4 +3,5 @@ if [ "$IS_REVIEW_APP" = "true" ]; then
   ssh "$SSH_REMOTE" -- config:set "$APP_NAME" "DOMAIN=$APP_NAME.dokku.me"
   echo "configured the review app domain"
   echo $SH_ZIYAD_VAL
+  echo $SH_ZIYAD_VAL2
 fi
